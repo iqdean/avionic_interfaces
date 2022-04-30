@@ -8,8 +8,8 @@ Add details on how add this to you ros2 workspace, so you can use the 'RPY' mess
 ### Rough HowTo's
 ```
  1257  cd ros2_ws
- 1285  ros2 pkg create --build-type ament_cmake cpp_pubsub
- 
+ 1308  ros2 pkg create --build-type ament_cmake avionic_interfaces
+ ...
  1323  ros2 pkg list | grep avionic
  1324  ros2 interface show avionic_interfaces/msg/RPY
 
